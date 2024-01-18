@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fotoblog</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <header class="container">
+        <nav>
+          <img class="logo" src="./assets/camera.svg" alt="Imagem da logomarca" />
+
+          <ul>
+            <li>Home</li>
+            <li class="active">Galeria</li>
+          </ul>
+        </nav>
+
+        <form>
+          <div class="input-wrapper">
+            <label for="search">Pesquise por imagens e coleções</label>
+            <input id="search" type="text" placeholder="Pesquise por imagens e coleções" >
+          </div>
+        </form>
+
+        <img
+          class="avatar"
+          src="https://avatars.githubusercontent.com/u/91148692?v=4" 
+          alt="Imagem de um homem"
+        />
+      </header>
+      <main>
+        <div class="container">
+          <h1>Galeria</h1>
+
+          <section class="gallery">
+            <figure class="item">
+              <img src="https://source.unsplash.com/random?a=1" alt="" />
+              <figcaption class="details">
+                <h2>Uma paissagem de um ceu</h2>
+                <div class="tags">
+                  <span></span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" styale="--delay:.6s">
+              <img src="https://source.unsplash.com/random?b=1" alt="" />
+              <figcaption class="details">
+                <h2>Uma tela de computador</h2>
+                <div class="tags">
+                  <span></span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" styale="--delay:.8s">
+              <img src="https://source.unsplash.com/random?c=1" alt="" />
+              <figcaption class="details">
+                <h2>Um espaço cheio de cadeiras</h2>
+                <div class="tags">
+                  <span></span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" styale="--delay:1s">
+              <img src="https://source.unsplash.com/random?d=1" alt="" />
+              <figcaption class="details">
+                <h2>Dua moças olhando para o avião</h2>
+                <div class="tags">
+                  <span></span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" styale="--delay:1.2s">
+              <img src="https://source.unsplash.com/random?e=1" alt="" />
+              <figcaption class="details">
+                <h2>Um portão com a letra e</h2>
+                <div class="tags">
+                  <span></span>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="item" styale="--delay:1.4s">
+              <img src="https://source.unsplash.com/random?f=1" alt="" />
+              <figcaption class="details">
+                <h2>Uma moça dentro do carrinho</h2>
+                <div class="tags">
+                  <span></span>
+                </div>
+              </figcaption>
+            </figure>
+          </section>
+        </div>
+      </main>
+      <footer class="container">
+        <p>© 2024 - Rocketseat Explorer</p>
+      </footer>
+    </div>
+  </body>
+</html>
